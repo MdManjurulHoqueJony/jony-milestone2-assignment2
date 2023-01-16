@@ -19,7 +19,7 @@ body {
 
 .nav {
     display: flex;
-    column-gap: 673px;
+    column-gap: 650px;
 }
 
 .home {
@@ -88,4 +88,8 @@ body {
 
 .banner-img {
     margin: 50px 240px;
+    width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+    padding-bottom: 50px;
 }
