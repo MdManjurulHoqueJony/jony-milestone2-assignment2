@@ -263,7 +263,6 @@ body {
     border-radius: 8px;
     width: 241.83px;
     height: 241.83px;
-    /* padding: 60px; */
     padding-left: 36px;
     padding-top: 46px;
     padding-right: 37px;
@@ -298,4 +297,73 @@ body {
     font-weight: 600;
     font-size: 20px;
     color: #727272;
+}
+
+/* sponsors style */
+.sponsors {
+    margin-top: 180px;
+    margin-bottom: 130px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.sponsors-info {
+    width: 542px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.sponsors-info .title {
+    width: 327px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.sponsors-info .description {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+}
+
+.sponsor-images {
+    display: flex;
+    column-gap: 155px;
+}
+
+.sponsor-image img {
+    -webkit-filter: grayscale(100%);    
+    filter: grayscale(100%);
+}
+
+/* footer styles */
+
+.footer {
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-bottom: 216px;
+}
+
+.copyright {
+    width: 620px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
 }
