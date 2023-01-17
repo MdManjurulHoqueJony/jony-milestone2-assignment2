@@ -55,10 +55,10 @@ body {
     background: rgba(255, 144, 14, 0.1);
 }
 
-.explore {
+/* .explore {
     margin-left: 870px;
     margin-right: 870px;
-}
+} */
 
 .banner-info {
     padding-left: 529px;
@@ -67,7 +67,6 @@ body {
     padding-bottom: 33px;
     width: 862px;
     height: 225px;
-    justify-content: center;
 }
 
 .banner-title {
@@ -340,7 +339,7 @@ body {
 }
 
 .sponsor-image img {
-    -webkit-filter: grayscale(100%);    
+    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
 
@@ -366,4 +365,106 @@ body {
     font-weight: 400;
     font-size: 20px;
     color: #424242;
+}
+
+/* media queries */
+
+/* mobile devices */
+@media only screen and (max-width:688px) {
+    .header {
+        padding: 50px;
+        margin: 0%;
+    }
+
+    .banner-info {
+        padding: 20px;
+    }
+
+    .banner .explore-btn {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .banner-img {
+        margin: 0;
+        width: 75%;
+        height: 700px;
+    }
+
+    .nav {
+        flex-direction: column;
+        row-gap: 25px;
+        ;
+    }
+
+    .nav-items {
+        height: 120px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .features {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .feature-images {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feature, .feature-list-box-description, .feature-list-box-intro {
+        width: 2000%;
+    }
+
+    .feature-image .experience-btn {
+        left: 150%;
+        transform: translate(-40%, 30%);
+        -ms-transform: translate(-40%, 30%);
+    }
+
+    .feature-details {
+        flex-direction: column;
+    }
+
+    .sponsors {
+        margin-left: 80px;
+    }
+
+    .feature-info{
+        width: 100%;
+    }
+
+    .feature-details, .features{
+        margin-left: 80px;
+    }
+
+    .facts {
+        margin-top: 300px;
+        width: 100%;
+        margin-left: 80px;
+    }
+
+    .achievements {
+        flex-direction: column;
+        row-gap: 40px;
+        margin-left: 600px;
+    }
+
+    .sponsors-info {
+        width: 1000px;
+    }
+    .sponsor-images{
+        flex-direction: column;
+        row-gap: 40px;
+        padding-left: 600px;
+    }
+
+    .footer {
+        width: 1200px;
+        margin-left: 80px;
+    }
 }
